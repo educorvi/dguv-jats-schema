@@ -3118,7 +3118,7 @@
     </xsd:annotation>
 
     <xsd:complexType mixed="true">
-      <xsd:choice/>
+      <!-- <xsd:choice/> -->
       <xsd:attribute name="content-type" use="optional" type="xsd:string"/>
       <xsd:attribute name="id" use="optional" type="xsd:ID"/>
       <xsd:attribute ref="xml:base" use="optional"/>
